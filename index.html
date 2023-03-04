@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="stats">
+            <p>Time:<span id="timer">0s</span></p>
+            <p>Mistake:<span id="mistakes">0</span></p>
+        </div>
+      <div id="quote" onmousedown="return false" onselectstart="return false">
+        
+      </div>
+      <textarea rows="3" id="keys"></textarea>
+      <!-- <div class="keyboard_wrapp">
+        <div class="keyboard_lights"></div>
+        <input type="text"></input>
+        <div id="keys" class="keyboard_keys">
+          <div class="row">
+            <div class="keys">`</div>
+            <div class="keys">1</div>
+            <div class="keys">2</div>
+            <div class="keys">3</div>
+            <div class="keys">4</div>
+            <div class="keys">5</div>
+            <div class="keys">6</div>
+            <div class="keys">7</div>
+            <div class="keys">8</div>
+            <div class="keys">9</div>
+            <div class="keys">0</div>
+            <div class="keys">-</div>
+            <div class="keys">=</div>
+            <div class="keys backspace_keys">Backspace</div>
+          </div>
+          <div class="row">
+            <div class="keys tab_key">Tab</div>
+            <div class="keys">Q</div>
+            <div class="keys">W</div>
+            <div class="keys">E</div>
+            <div class="keys">R</div>
+            <div class="keys">T</div>
+            <div class="keys">Y</div>
+            <div class="keys">U</div>
+            <div class="keys">I</div>
+            <div class="keys">O</div>
+            <div class="keys">P</div>
+            <div class="keys">[</div>
+            <div class="keys">]</div>
+            <div class="keys slash_key">\</div>
+          </div>
+          <div class="row">
+            <div class="keys cpc_key">Caps Lock</div>
+            <div class="keys romove">A</div>
+            <div class="keys">S</div>
+            <div class="keys">D</div>
+            <div class="keys">F</div>
+            <div class="keys">G</div>
+            <div class="keys">H</div>
+            <div class="keys">J</div>
+            <div class="keys">K</div>
+            <div class="keys">L</div>
+            <div class="keys">;</div>
+            <div class="keys">'</div>
+            <div class="keys entr_key">Enter</div>
+          </div>
+          <div class="row">
+            <div class="keys Shift_left_key">Shift</div>
+            <div class="keys">Z</div>
+            <div class="keys">X</div>
+            <div class="keys">C</div>
+            <div class="keys">V</div>
+            <div class="keys">B</div>
+            <div class="keys">N</div>
+            <div class="keys">M</div>
+            <div class="keys">,</div>
+            <div class="keys"></div>
+            <div class="keys">.</div>
+            <div class="keys">/</div>
+            <div class="keys Shift_right_key">Shift</div>
+          </div>
+          <div class="row">
+            <div class="keys ctrl_key ctrl_left_key">Ctrl</div>
+            <div class="keys fnt_key">Fn</div>
+            <div class="keys windoe_key">Win</div>
+            <div class="keys alt_key alt_left_key">Alt</div>
+            <div class="keys sapce_key"></div>
+            <div class="keys alt_key alt_right_key">Alt</div>
+            <div class="keys ctrl_key ctrl_right_key">Ctrl</div>
+          </div>
+        </div>
+      </div> -->
+      <button id="start-test" onclick="startTest()">Start Test</button>
+      <button id="stop-test" onclick="displayResult()">Stop Test</button>
+      <div class="result">
+        <h3>Result</h3>
+        <div class="wrapper">
+            <p>Accuracy:<span id="accuracy"></span></p>
+            <p>Speed:<span id="wpm"></span></p>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

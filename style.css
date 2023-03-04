@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+ background-color: #efefef;
+transition: .2s;
+}
+.container{
+   width: 80vmin;
+   padding: 50px 30px;
+   background-color: #ffffff;
+   position: absolute;
+   transform: translate(-50%, -50%);
+   top:50%;
+   left: 50%;
+   border-radius: 10px;
+   box-shadow: 0 20px 40px rgba(0, 0, 0,0.15);
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    margin: 0 10px; */
+}
+
+.stats{
+   text-align:right;
+   font-size: 18px;
+   margin-bottom: 30px;
+}
+.stats span{
+   font-weight: 600;
+}
+#quote{
+   text-align: justify;
+   margin: 50px 0 30px 0;
+}
+textarea{
+   resize: none;
+   width: 100%;
+   border-radius: 5px;
+   padding: 10px 5px;
+   font-size: 16px;
+}
+button{
+   float: right;
+   margin-top: 20px;
+   background-color: rgb(78, 6, 6);
+   color: #ffffff;
+   border: 10px;
+   pad: 10px 30px;
+   border-radius: 3px;
+   font-size: 18px;
+}
+.result{
+   margin-top: 40px;
+display: none;
+}
+.result h3{
+   text-align: center;
+   margin-bottom: 20px;
+   font-size: 22px;
+}
+.wrapper{
+   display: flex;
+   justify-content: space-around;
+}
+.wrapper span{
+   font-size: 600;
+}
+.success{
+   color: #44b267;
+}
+.fail{
+   color: #e81c4e;
+}
+
+/* .keyboard_wrapp{
+    max-width: 1008px;
+    width: 100%;
+   background-color: #efefef;
+    overflow: hidden;
+    position: relative;
+    overflow: hidden;
+    order: 2;
+ }
+ /* virtual keyboard */
+ /* .row{
+    display: flex;
+
+ }
+ .keys{
+width: 60px;
+height: 60px;
+background-color: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 4px;
+transition: .2s;
+ }
+ .backspace_keys{
+    width: 120px;
+ }
+ .tab_key{
+    width: 90px;
+ }
+ .slash_key{
+    width: 90px;
+ }
+ .cpc_key{
+    width: 128px;
+ }
+ .entr_key{
+    width: 120px;
+   }
+   .Shift_left_key{
+    width: 124px;
+   }
+   .Shift_right_key{
+    width: 124px;
+   }
+   .sapce_key{
+    max-width: 600px;
+    width: 100%;
+   }
+   .text{
+    max-width: 1008px;
+    width:100%;
+    height: 90px;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    font-size: 26px;
+    background-color: aliceblue;
+    padding-left: 10px;
+    transition: .2s;
+   }
+   .keys.active{
+    background-color: #333;
+    color: #fff;
+   }
+   .keys.remove{
+    animation: keys_animation 0.5s forwards;
+   }
+   @keyframes keys_animation{
+0%{
+    background-color: #333;
+    color: #fff;
+}
+100%{
+    background-color: #fff;
+    color: #000;
+}
+   } */ 
+  
